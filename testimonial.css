@@ -1,0 +1,89 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper to prevent full screen */
+.wrapper {
+    width: 700px;
+    margin: 50px auto;
+}
+
+/* TOP SECTION */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 48%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    border: 2px solid #ddd;
+}
+
+/* Profile section */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* MIDDLE SECTION */
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.large-image img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.big {
+    width: 65%;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* BOTTOM SECTION */
+.bottom-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.slider-profile {
+    margin-top: 20px;
+}
+
+.slider-profile img {
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.slider-profile .active {
+    opacity: 1;
+}
