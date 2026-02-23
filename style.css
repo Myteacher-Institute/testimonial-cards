@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+section {
+    width: 600px;
+    padding: 10px;
+    height: 100dvh;
+    margin-inline: auto;
+    background-color: #fff;
+}
+
+.card1 .text-box,
+.card3 .text-box {
+    gap: 20px;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    color:  white;
+    position: relative;
+    border-radius: 15px;
+    flex-direction: column;
+    background-color: #383737;
+}
+
+.card1 .text-box::after {
+    content: "";
+    left: 23px;
+    width: 20px;
+    height: 20px;
+    bottom: -5px;
+    rotate: 45deg;
+    position: absolute;
+    background-color: #383737;
+}
+
+.text-box p {
+    z-index: 1;
+}
+
+.card1 .profile,
+.card2 .profile {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0 0 8px;
+}
+
+.card3 .image,
+.profile .image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+.image img {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.profile p {
+    font-weight: 500;
+}
+
+.profile span {
+    font-size: 12px;
+}
+
+.card2 {
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.card3 {
+    gap: 20px;
+    display: flex;
+}
+
+.card3 .image {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
